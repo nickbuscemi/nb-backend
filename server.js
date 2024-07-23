@@ -3,7 +3,7 @@ const cors = require('cors');
 require('dotenv').config();
 const nodemailer = require('nodemailer');
 const app = express();
-const port = 5252;
+const port = process.env.PORT || 5252;
 
 // const { MongoClient, ServerApiVersion } = require('mongodb');
 
